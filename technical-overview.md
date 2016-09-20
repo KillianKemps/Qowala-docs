@@ -41,7 +41,7 @@ The XMPP protocol is mostly used for instant messaging between two users. Howeve
 * Little issues that are today not acceptable anymore like bad management when user is connected on several clients at the same time
 * No E2E encryption, only OTR is avaible, so there is some security only in conversations with two people. XEPs to improve that are all [defferred](https://xmpp.org/extensions/xep-0210.html).
 
-### 3. IRC
+### 3. IRC protocol
 
 Simply too old. To mention that there is now a [IRCv3](http://ircv3.net/) initiative which should fix some issues in IRC like notifications.
 
