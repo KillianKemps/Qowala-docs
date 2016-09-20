@@ -22,8 +22,36 @@ There are Matrix Bridges which exist to allow to communicate between Matrix and 
 * Community is growing well. Benefiting exposure from the [Decentralized Web Summit](https://matrix.org/blog/2016/05/24/next-up-the-first-decentralized-web-summit/)
 
 **Cons:**
+
 * Even though Matrix has been initially released in [September 2014](https://matrix.org/docs/guides/faq.html#why-arent-you-doing-this-through-the-ietf-or-w3c-or-3gpp), and is working quite well, we are currently not sure if this protocol will really have success
 * Matrix is currently built mainly by VoIP professionals and some other contributors. There is no global organisation like W3C or IETF to ensure this standard will be used worldwide. However, they plan to work with an official standard once they find it mature enough.
+
+### 2. XMPP protocol
+
+The XMPP protocol is mostly used for instant messaging between two users. However, it can also manage groups. The standard is still evolving with [XEP](https://xmpp.org/extensions/) even though it is quite slow. Some recent projects are using XMPP like [Movim](https://movim.eu/) and Salut à Toi, so there may still have opportunities to use it. Furthermore, existing XMPP servers can be useful as identity servers.
+
+**Pros:**
+
+* Mature protocol
+* Widespread usage
+* Standard protocol supported by IETF
+
+**Cons:**
+
+* Little issues that are today not acceptable anymore like bad management when user is connected on several clients at the same time
+* No E2E encryption, only OTR is avaible, so there is some security only in conversations with two people. XEPs to improve that are all [defferred](https://xmpp.org/extensions/xep-0210.html).
+
+### 3. IRC
+
+Simply too old. To mention that there is now a [IRCv3](http://ircv3.net/) initiative which should fix some issues in IRC like notifications.
+
+**Pros:**
+
+* Can manage one-to-one and group conversations
+
+**Cons:**
+
+* No official support for the standard
 
 ## What to use to easily integrate lots of social networks and communication services?
 
