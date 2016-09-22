@@ -55,3 +55,70 @@ Simply too old. To mention that there is now a [IRCv3](http://ircv3.net/) initia
 
 ## What to use to easily integrate lots of social networks and communication services?
 
+### 1. Matrix bridges
+
+Currently there are IRC, Slack, Gitter and other messaging tools for teams that are available [through bridges](https://matrix.org/docs/projects/try-matrix-now.html#application-services). There is also a [Twitter bridge](https://github.com/Half-Shot/matrix-appservice-twitter), but still basic and developed by one developer.
+
+For the moment, only the IRC bridge has been tested. It works well, but is requiring authorization from the IRC side \(maybe just a choice by the bridge developers\).
+
+**Pros:**
+
+* If Qowala develops Matrix bridges for social networks, it would benefit to the whole community so Qowala may benefit of more developers to help.
+
+**Cons:**
+
+* However, building bridges for social networks may be more complicated than other more open networks.
+
+* Overall, with this solution, we will still have to remove some "noise" actions so that Qowala users don't have to bother about integrating services.
+
+### 2. Granary
+
+[This library](https://github.com/snarfed/granary) developed by an IndieWeb member allows to have one REST API for most social networks. Which means for Qowala a consistent interface for most queries following [OpenSocial Social API Server Specifications](https://opensocial.github.io/spec/2.0.1/Social-API-Server.xml#ActivityStreams-Service).
+
+However this is only good to read content, but not to post content.
+
+**Pros:**
+
+* Active project
+
+**Cons:**
+
+* Allows only reading content
+
+* No open source license (no license at all)
+
+### 3. Sockethub
+
+[Sockethub](https://github.com/sockethub/sockethub) is similary to Granary and even allows interactions in both directions.
+
+**Pros:**
+
+* Allows to read and write
+
+**Cons:**
+
+* No open source license (no license at all)
+
+* Doesn't seem very active since one year
+
+### 4. Bridgy
+
+By the same author than Granary, [Bridgy](https://github.com/snarfed/bridgy) allows to pull comments but also to publish them on most social networks.    
+
+**Pros:**
+
+* Most social networks are available
+
+* Still active since 2011
+
+**Cons:**
+
+* No open source license (no license at all)
+
+* Available actions seem limited
+
+* HTML is only API, so requires intermediary step
+
+
+
+
