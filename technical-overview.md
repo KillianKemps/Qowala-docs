@@ -14,6 +14,10 @@ So, Qowala could base itself on the Matrix technology and Vector clients to have
 
 There are Matrix Bridges which exist to allow to communicate between Matrix and IRC and between Matrix and XMPP for example. Qowala could maybe just be some kind of Matrix bot and develop the necessary Matrix Bridges without having to develop a special client.
 
+Little tutorial to write [Matrix Bridges](https://github.com/matrix-org/matrix-appservice-bridge/blob/master/HOWTO.md)
+
+Little tutorial to write [Matrix clients](https://matrix.org/docs/howtos/client-server.html)
+
 **Pros:**
 
 * New protocol which should help to compensate issues with older protocols. See the [comparison](https://matrix.org/docs/guides/faq.html#what-is-the-difference-between-matrix-and-irc).
