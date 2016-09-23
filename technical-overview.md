@@ -25,6 +25,7 @@ There are Matrix Bridges which exist to allow to communicate between Matrix and 
 
 * Even though Matrix has been initially released in [September 2014](https://matrix.org/docs/guides/faq.html#why-arent-you-doing-this-through-the-ietf-or-w3c-or-3gpp), and is working quite well, we are currently not sure if this protocol will really have success
 * Matrix is currently built mainly by VoIP professionals and some other contributors. There is no global organisation like W3C or IETF to ensure this standard will be used worldwide. However, they plan to work with an official standard once they find it mature enough.
+* Matrix's technology is modern. However, building tools around it like a bridge requires to learn and investigate in documentation a lot. There is until now no easy tutorial.
 
 ### 2. XMPP protocol
 
