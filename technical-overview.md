@@ -89,7 +89,6 @@ However this is only good to read content, but not to post content.
 **Cons:**
 
 * Allows only reading content
-
 * No open source license (no license at all)
 
 ### 3. Sockethub
@@ -103,7 +102,6 @@ However this is only good to read content, but not to post content.
 **Cons:**
 
 * No open source license (no license at all)
-
 * Doesn't seem very active since one year
 
 ### 4. Bridgy
@@ -113,15 +111,12 @@ By the same author than Granary, [Bridgy](https://github.com/snarfed/bridgy) all
 **Pros:**
 
 * Most social networks are available
-
 * Still active since 2011
 
 **Cons:**
 
 * No open source license (no license at all)
-
 * Available actions seem limited
-
 * HTML is only API, so requires intermediary step
 
 
