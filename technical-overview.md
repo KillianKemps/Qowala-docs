@@ -119,6 +119,52 @@ By the same author than Granary, [Bridgy](https://github.com/snarfed/bridgy) all
 * Available actions seem limited
 * HTML is only API, so requires intermediary step
 
+## What to use to build mobile interfaces?
 
+### 1. Web app
+Simply build a website with some optimizations for mobiles.
 
+**Pros:**
+* Easy to build
+* Works on any platform
+* One front-end code for everything
 
+**Cons:**
+* Limitations on some mobile platforms:
+    - iOS web view is limited on purpose
+    - Some features like background notifications don't work
+
+### 2. React Native
+Using Facebook's React Native framework allows to build native mobile apps for Android and iOS with one same code. It uses ReactJS as front-end framework.
+
+**Pros:**
+* All mobile features available
+* One front-end code for everything
+
+**Cons:**
+* iOS app still needs a Macbook platform to be developed
+* ReactJS framework is quite complex and difficult to master
+* ReactJS and React Native are property of Facebook with some limitations included in the license
+
+### 3. Service Workers
+Currently work-in-progress, service workers should add some [offline features](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) to basic web apps.
+
+**Pros:**
+* All previous web app pros:
+    - Easy to build
+    - Works on any platform
+    - One front-end code for everything
+* Allows background sync and push notifications
+
+**Cons:**
+* As still WIP, specifications are changing and mobile isn't fully supported
+
+### 4. Apache Cordova
+Apache Cordova is an open source framework for building mobile apps with one codebase. It allows to build hybrid apps which can access more features than web apps on mobiles. However, performance are a lower than native apps.
+
+**Pros:**
+* Works on any platform
+
+**Cons:**
+* Maybe a little bit complex to develop
+* iOS app still needs a Macbook platform to be developed
